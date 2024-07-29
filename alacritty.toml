@@ -1,0 +1,22 @@
+import = [
+  # uncomment the flavour you want below:
+  # "~/.config/alacritty/catppuccin-latte.toml"
+  # "~/.config/alacritty/catppuccin-frappe.toml"
+  "~/.config/alacritty/catppuccin-macchiato.toml"
+  # "~/.config/alacritty/catppuccin-mocha.toml"
+]
+[env]
+WINIT_X11_SCALE_FACTOR = "1.0"
+TERM = "xterm-256color"
+[window]
+padding = { x = 2, y = 2}
+dynamic_padding = true
+decorations = "None"
+opacity = 0.7
+blur = true
+startup_mode = "Windowed"
+[font]
+normal = { family = "IoSevkaTerm Nerd Font", style = "Italic"}
+[scrolling]
+history = 10240
+multiplier = 3
